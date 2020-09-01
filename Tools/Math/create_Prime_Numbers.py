@@ -20,7 +20,7 @@ check = True
 
 # Looks for prime numbers till the given limit
 while i < stop:
-    # Because 2 is the only evan prime number this segment is specifically for it
+    # Because 2 is the only even prime number this segment is specifically for it
 	if stop > 2 and i == 2:
 		f.write(str(i))
 		f.write("\n")
